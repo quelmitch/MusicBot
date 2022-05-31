@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@discordjs/builders": "^0.13.0",
     "@discordjs/rest": "^0.4.1",
@@ -11,6 +15,9 @@
     "discord-api-types": "^0.33.1",
     "discord.js": "^13.7.0",
     "dotenv": "^16.0.1",
-    "ytdl-core": "^4.11.0"
+    "ffmpeg-static": "^4.4.1",
+    "tweetnacl": "^1.0.3",
+    "ytdl-core": "^4.11.0",
+    "ytsr": "^3.8.0"
   }
 }
